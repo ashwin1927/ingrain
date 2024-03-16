@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 body{
@@ -126,3 +127,17 @@ button:disabled, button[disabled]{
 }
 
 
+p{
+    font-size: 16px;
+    color:#ccc;
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
